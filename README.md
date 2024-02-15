@@ -8,9 +8,9 @@ The progress percentage is based on how many lessons out of the different module
 
 #### GO FUNDAMENTALS
 
-- Percentage: ```24%```
+- Percentage: ```33%```
 
-- Current Lesson: ```Structs, methods & interfaces```
+- Current Lesson: ```Dependency Injection```
 
 #### TESTING FUNDAMENTALS
 
