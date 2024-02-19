@@ -8,9 +8,9 @@ The progress percentage is based on how many lessons out of the different module
 
 #### GO FUNDAMENTALS
 
-- Percentage: ```65%```
+- Percentage: ```85%```
 
-- Current Lesson: ```Context```
+- Current Lesson: ```Templating```
 
 #### TESTING FUNDAMENTALS
 
