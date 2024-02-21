@@ -12,9 +12,9 @@ The progress percentage is based on how many lessons out of the different module
 
 #### TESTING FUNDAMENTALS
 
-- Percentage: ```0%```
+- Percentage: ```25%```
 
-- Current Lesson: ```Introduction to acceptance tests```
+- Current Lesson: ```Scaling acceptance tests```
 
 #### BUILDING AN APPLICATION
 
