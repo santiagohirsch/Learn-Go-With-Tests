@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "Learn-Go-With-Tests/adapters/grpcserver";
+
+package grpcserver;
+
+service Greeter {
+  rpc Greet (GreetRequest) returns (GreetReply) {}
+  rpc Curse (GreetRequest) returns (GreetReply) {}
+}
+
+message CurseRequest {
+  string name = 1;
+}
+
+message CurseReply {
+  string message = 1;
+}
+
+message GreetRequest {
+  string name = 1;
+}
+
+message GreetReply {
+  string message = 1;
+}
