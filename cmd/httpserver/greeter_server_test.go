@@ -11,6 +11,9 @@ import (
 )
 
 func TestGreeterServer(t *testing.T) {
+	if testing.Short() {
+		t.Skip()
+	}
 	var (
 		port   = "8080"
 		driver = httpserver.Driver{
@@ -22,5 +25,6 @@ func TestGreeterServer(t *testing.T) {
 	)
 
 	adapters.StartDockerServer(t, port, "httpserver")
-	specifications.GreetSpecification(t, &driver)
+	specifications.GreetSpecification(t, driver)
+	specifications.CurseSpecification(t, driver)
 }
